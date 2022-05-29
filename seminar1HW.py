@@ -6,16 +6,16 @@
 # 6 -> да
 # 7 -> да
 # 1 -> нет
-# numday = int(input("Введите число: "))
-# match numday:
-#     case 1: print("Будний")
-#     case 2: print("Будний")
-#     case 3: print("Будний")
-#     case 4: print("Будний")
-#     case 5: print("Будний")
-#     case 6: print("Выходной")
-#     case 7: print("Выходной")
-#     case _: print(f"Дня недели с номером {numday!r} нет")
+numday = int(input("Введите число: "))
+match numday:
+    case 1: print("Будний")
+    case 2: print("Будний")
+    case 3: print("Будний")
+    case 4: print("Будний")
+    case 5: print("Будний")
+    case 6: print("Выходной")
+    case 7: print("Выходной")
+    case _: print(f"Дня недели с номером {numday!r} нет")
 
 # 2) Напишите программу, которая принимает на вход координаты точки (X и Y), и выдаёт номер четверти плоскости, в которой находится эта точка (или на какой оси она находится).
 
@@ -46,13 +46,13 @@
 # Пример:
 # A (3,6); B (2,1) -> 5,09
 # A (7,-5); B (1,-1) -> 7,21
-import math
-Ax = int(input("Введите координату x точки А: "))
-Ay = int(input("Введите координату y точки А: "))
-Bx = int(input("Введите координату x точки B: "))
-By = int(input("Введите координату y точки B: "))
+# import math
+# Ax = int(input("Введите координату x точки А: "))
+# Ay = int(input("Введите координату y точки А: "))
+# Bx = int(input("Введите координату x точки B: "))
+# By = int(input("Введите координату y точки B: "))
 
-print(f"Точка А - ( {Ax} ; {Ay} )")
-print(f"Точка B - ( {Bx} ; {By} )")
-result = math.sqrt((Ax-Bx)*(Ax-Bx)+(Ay-By)*(Ay-By))
-print(f"Длина отрезка : {result}")
+# print(f"Точка А - ( {Ax} ; {Ay} )")
+# print(f"Точка B - ( {Bx} ; {By} )")
+# result = math.sqrt((Ax-Bx)*(Ax-Bx)+(Ay-By)*(Ay-By))
+# print(f"Длина отрезка : {result}")
