@@ -19,12 +19,12 @@
 #     b = b * 10 - int(b * 10)
 # print(f"Сумма цифр числа {num} = {mult}")
 
-# num = str(input("Введите число: "))
-# sum = 0
-# for i in num:
-#     if i != "-" and i != "." and i != ",":
-#         sum += int(i)
-# print(f"Сумма цифр числа {num} = {sum}")
+num = str(input("Введите число: "))
+sum = 0
+for i in num:
+    if i != "-" and i != "." and i != ",":
+        sum += int(i)
+print(f"Сумма цифр числа {num} = {sum}")
 
 
 # 2) Напишите программу, которая принимает на вход число N и выдает набор произведений чисел от 1 до N.
