@@ -10,18 +10,28 @@
 # Пример:
 # [2, 3, 4, 5, 6] => [12, 15, 16];
 # [2, 3, 5, 6] => [12, 15]
-spisok = [2, 3, 4, 5, 6]
-sum_spisok = []
-for i in range(len(spisok)):
-    sum = spisok[i] * spisok[len(spisok)-1-i]
-    sum_spisok.append(sum)
-print(sum_spisok)
+# import math
+# spisok = [2, 3, 4, 5, 6]
+# sum_spisok = []
+# a = math.ceil(len(spisok)/2)
+# for i in range(a):
+#     sum = spisok[i] * spisok[len(spisok)-1-i]
+#     sum_spisok.append(sum)
+# print(sum_spisok)
 
 
 # 3) Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
 # Пример:
 # [1.1, 1.2, 3.1, 5, 10.01] => 0.19
-# flout_list = [1.1, 1.2, 3.1, 5, 10.01]
 
-
+# list = [1.1, 1.2, 3.1, 5, 10.01]
+# float_list = []
+# list = filter(lambda e: isinstance(e, float), list)
+# for i in range(len(list)):
+#     float_list.append(round((list[i] - int(list[i])),2))
+# print(float_list)
+# max = max(float_list)
+# min = min (float_list)
+# result = max - min
+# print(result)
 
