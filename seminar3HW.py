@@ -24,11 +24,11 @@
 # Пример:
 # [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-# list = [1.1, 1.2, 3.1, 5, 10.01]
+# a = [1.1, 1.2, 3.1, 5, 10.01]
 # float_list = []
-# list = filter(lambda e: isinstance(e, float), list)
-# for i in range(len(list)):
-#     float_list.append(round((list[i] - int(list[i])),2))
+# a2 = list(filter(lambda e:isinstance(e, float), a))
+# for i in range(len(a2)):
+#     float_list.append(round((a2[i] - int(a2[i])),2))
 # print(float_list)
 # max = max(float_list)
 # min = min (float_list)
