@@ -16,21 +16,27 @@
 # 2) Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 # Пример:
 # для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
-# def fibonacci(n):
-    
-#     if n > -1:
-#         if n == 0:
-#             return 0
-#         elif n == 1:
-#             return 1
-#         else:
-#             return fibonacci(n-1) + fibonacci(n-2)
-#     if n <= -1:
-#         return ((-1)**(n+1))*fibonacci(n)
+def fibonacci(n):
 
-# num = int(input("Введите число: "))
-# for i in range(-num,num+1):
-#     print (fibonacci(num), end=",")
+        if n > -1:
+            if n == 0:
+                return 0
+                spisok.append(i)
+            elif n == 1:
+                return 1
+                spisok.append(i)
+            else:
+                return fibonacci(n-1) + fibonacci(n-2)
+                spisok.append(i)
+        if n <= -1:
+            return int(((-1)**(n+1))*fibonacci(-n))
+ 
+
+num = int(input("Введите число: "))
+for i in range(-num,num+1):   
+    print(fibonacci(i), end=",")
+
+    
 
 # 3) Задайте строку из набора чисел. Напишите программу, которая покажет большее и меньшее число. В качестве символа-разделителя используйте пробел.
 # spisok = input("Введите набор чисел: ").split()
